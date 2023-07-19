@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import UpbondWalletConnector from "@upbond/wagmi-connector";
 import { polygon, mainnet, polygonMumbai, goerli } from 'wagmi/chains';
 
-const projectId = "8f6f7b9fc77c3aff921ff4c981b11bc8"
+const projectId = "be01ae256086eee8863f0612e8e9ddfa"
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [mainnet, polygon, polygonMumbai, goerli],
